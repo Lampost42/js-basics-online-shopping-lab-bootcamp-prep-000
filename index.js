@@ -46,7 +46,7 @@ function total() {
 }
 
 function removeFromCart(item) {
-  var index = cart.indexOf(item);
+  var index = cart.indexOf(item.itemName);
   if(index != -1) {
     cart.splice(index)
   } else {
