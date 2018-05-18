@@ -48,7 +48,7 @@ function total() {
 function removeFromCart(item) {
   var index = cart.indexOf(item);
   if(index != -1) {
-    cart.splice(index, 1)
+    cart.splice(index)
   } else {
     return('That item is not in your cart.')
   }
